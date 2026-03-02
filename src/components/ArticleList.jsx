@@ -1,9 +1,11 @@
 import { articles } from '../data/articles'
 import ArticleCard from './ArticleCard'
+import Seo from './Seo'
 
 export default function ArticleList() {
   return (
     <>
+      <Seo path="/" />
       <section className="hero">
         <div className="hero__inner">
           <p className="hero__eyebrow">Chroniques Olfactives</p>

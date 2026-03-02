@@ -1,5 +1,67 @@
 export const articles = [
   {
+    id: 2,
+    slug: 'myslf-le-monolithe-de-ysl',
+    category: 'Analyse',
+    title: 'MYSLF : Le monolithe de YSL',
+    subtitle: 'La ligne qui prouve qu\'une signature olfactive forte peut se décliner sans jamais se répéter',
+    excerpt:
+      'MYSLF est la ligne de parfums masculine d\'Yves Saint Laurent lancée en 2023, construite autour d\'un duo fleur d\'oranger-patchouli. Ce qui distingue cette ligne, c\'est sa capacité à décliner un ADN fort en trois fragrances aux facettes radicalement différentes : clean scent, boisé ambré sombre et agrumes épicés sucrés.',
+    date: '2 Mars 2026',
+    author: 'Hector',
+    readTime: '7',
+    body: [
+      {
+        type: 'paragraph',
+        content:
+          'Parmi toutes les différentes lignes de parfums pour homme de chez Yves Saint Laurent, celle qui a le plus retenu mon attention c\'est MYSLF. Pour cette nouvelle ligne lancée en 2023, l\'intention de YSL a été de créer la fragrance audacieuse de l\'homme moderne, qui accepte toutes ses facettes et ses émotions. Pour réaliser ce défi ils ont travaillé un absolu de fleur d\'oranger, une note florale historiquement féminine en l\'accompagnant de patchouli pour un côté boisé qui tend plus à la masculinité. Jusqu\'à aujourd\'hui, MYSLF présente 3 fragrances : L\'Eau de Parfum, Le Parfum et L\'Absolu (dans l\'ordre chronologique croissant de parution). Bien sûr si je devais vous présenter chaque ligne de parfums qui a un message impactant et actuel on en aurait jusqu\'à l\'année prochaine mais si je vous parle de MYSLF aujourd\'hui c\'est pour plus que ça…',
+      },
+      {
+        type: 'paragraph',
+        content:
+          'En effet ce qui m\'a séduit avec cette ligne c\'est la maîtrise de l\'ADN dans chaque nouvelle création. Pour que ça soit plus clair je vais utiliser le contre-exemple de la ligne Stronger With You de Emporio Armani. J\'adore les Stronger With You ils sont vraiment très hauts dans mon top de parfums pour l\'hiver mais chaque création de la ligne se ressemble trop. La différence des SWY avec les MYSLF c\'est la signature châtaigne-vanille qui est magnifique mais qui est si dense qu\'elle sature les nuances apportées dans les différentes versions de la ligne… À cause de ça au quotidien on est plus souvent avec les notes de fond de châtaigne-vanille que sur les subtilités qui font la différence (je vous parlerai plus en détail de cette ligne un jour car elle en vaut vraiment le coup !). En comparaison, MYSLF explore dans chaque fragrance des facettes différentes avec cette fleur d\'oranger-patchouli : on a du clean scent, mais aussi du boisé plus sombre et même du sucré !',
+      },
+      {
+        type: 'perfume-heading',
+        name: 'MYSLF : L\'Eau de Parfum (2023)',
+        brand: 'Yves Saint Laurent',
+        icon: 'ysl',
+      },
+      {
+        type: 'paragraph',
+        content:
+          'Pour l\'anecdote ça a été mon tout premier parfum de designer, ça fait bientôt 2 ans que je le porte au quotidien ! Quand je vous dis que MYSLF m\'a vraiment charmé c\'est du sérieux !! On part sur une composition très simple pour la première création de la ligne avec de la bergamote, le duo fleur d\'oranger-patchouli et de l\'ambrofix. Très simple mais ça marche ! C\'est très pétillant sur l\'ouverture avec la bergamote mais pas zesté ni piquant, ça reste super propre, parfaitement maîtrisé, pour celui là : le défi de YSL est relevé haut la main ! Un excellent clean scent pour le quotidien pour se sentir comme l\'homme de la situation. Le flacon de forme rectangulaire est en verre noir transparent avec le logo YSL moulé directement dans la masse du verre.',
+      },
+      {
+        type: 'perfume-heading',
+        name: 'MYSLF : Le Parfum (2024)',
+        brand: 'Yves Saint Laurent',
+        icon: 'ysl',
+      },
+      {
+        type: 'paragraph',
+        content:
+          'Mon deuxième parfum de designer… Dès sa sortie j\'ai sauté dessus mais attention celui là est tout à fait différent de l\'edp. Pour la composition de celui là on a du poivre noir en note de tête, on est bien loin de la bergamote rafraîchissante de l\'edp. La promesse de cette version est une version ambrée plus sombre et c\'est réussi, de même que le défi posé de base ! En plus du duo fleur d\'oranger-patchouli, on retrouve dans les notes de fond un accord ambré et vanillé qui contrastent cette fraîcheur florale en beauté. Il est bien moins linéaire que l\'edp qui change très peu au fil de la journée puisque celui ci démarre sur le poivre noir et le duo combo gagnant de fleur d\'oranger-patchouli et au bout de quelques heures laisse place aux accords ambrés et vanillés plus masculins qui assurent une bonne tenue au parfum, comme c\'est des notes assez lourdes. Sur Le Parfum, le monolithe est toujours paru de verre noir, mais cette fois noir mat, on ne voit pas le liquide à travers.',
+      },
+      {
+        type: 'perfume-heading',
+        name: 'MYSLF : L\'Absolu (2025)',
+        brand: 'Yves Saint Laurent',
+        icon: 'ysl',
+      },
+      {
+        type: 'paragraph',
+        content:
+          'Celui-ci a également rejoint ma collection et c\'est certainement mon préféré des trois. Avec une ouverture de gingembre, de bergamote et de cardamome on a une magnifique ouverture d\'agrume épicée, pétillante, même sucrée qui laisse une place de choix à notre duo gagnant qui adoucit légèrement le jeu épicé/sucré avec la touche boisé/floral que j\'adore chez MYSLF. Malgré le retour aux sources de la bergamote qu\'on avait aussi dans l\'edp, L\'Absolu est absolument différent de ce dernier. Si vous n\'avez pas encore votre parfum pour le printemps, L\'Absolu est parfait pour cette saison je trouve, il passe aussi bien en hiver qu\'en été également. Ici le flacon se débarrasse du noir de ses 2 grands frères puisqu\'il arbore une couleur argentée miroitante.',
+      },
+      {
+        type: 'paragraph',
+        content:
+          'J\'espère sincèrement avoir piqué votre curiosité sur cette ligne et que vous irez sentir les 3 parfums si c\'est pas déjà fait, ils valent vraiment le détour. La plus grande force de MYSLF comme je vous disais c\'est la différence flagrante entre les 3 versions mais qui tout de même garde un ADN marqué et identifiable. Le fait d\'avoir les 3 parfums d\'une même ligne peut souvent être une erreur car on peut se retrouver confronté aux mêmes notes persévérantes sur toute la ligne mais ici c\'est l\'inverse, il FAUT adopter la ligne entière qui convient parfaitement à toutes les occasions. À chaque analyse des 3 fragrances je vous ai parlé du flacon et ce n\'était pas pour rien ! Je trouve que les flacons reflètent tellement le parfum : le transparent noir est un clean scent légèrement boisé, le noir mat est un boisé ambré plus sombre, et je ne sais pas expliquer pourquoi mais l\'argenté retranscrit trop bien le jus de L\'Absolu - vous comprendrez en le sentant, moi j\'arrive vraiment pas à expliquer ce feeling… Pour MYSLF, les flacons sont tous les 3 rechargeables, ce qui n\'est pas le cas de toute la gamme de parfums de YSL, c\'est un petit plus que je tenais à ajouter car il reste important de penser écologie quand on achète son parfum (et économie !).',
+      },
+    ],
+  },
+  {
     id: 1,
     slug: 'a-la-decouverte-du-oud',
     category: 'Découverte',

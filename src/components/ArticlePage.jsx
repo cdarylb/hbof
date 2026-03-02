@@ -1,12 +1,14 @@
 import { useParams, useNavigate } from 'react-router-dom'
 import { useEffect } from 'react'
 import { articles } from '../data/articles'
-import { IconInitio, IconHorace, IconGuerlain } from './PerfumeIcon'
+import { IconInitio, IconHorace, IconGuerlain, IconYSL } from './PerfumeIcon'
+import Seo from './Seo'
 
 const perfumeIcons = {
   initio: IconInitio,
   horace: IconHorace,
   guerlain: IconGuerlain,
+  ysl: IconYSL,
 }
 
 function BodyBlock({ block, index }) {
@@ -65,6 +67,12 @@ export default function ArticlePage() {
 
   return (
     <div className="article-page">
+      <Seo
+        title={article.title}
+        description={article.excerpt}
+        path={`/article/${article.slug}`}
+        type="article"
+      />
       <div className="article-page__back-wrapper">
         <button className="article-page__back" onClick={() => navigate('/')}>
           <span className="article-page__back-arrow">←</span>

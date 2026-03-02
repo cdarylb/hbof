@@ -11,12 +11,12 @@ export default function Header() {
         <nav>
           <ul className="header__nav">
             <li>
-              <Link to="/" className="header__nav-link">
+              <Link to="/chroniques" className="header__nav-link">
                 Chroniques
               </Link>
             </li>
             <li>
-              <Link to="/" className="header__nav-link">
+              <Link to="/a-propos" className="header__nav-link">
                 À Propos
               </Link>
             </li>

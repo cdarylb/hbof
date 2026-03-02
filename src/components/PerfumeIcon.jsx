@@ -1,7 +1,7 @@
 // Trois silhouettes de flacons SVG, chacune inspirée du style de la marque
 
 export function IconInitio({ className }) {
-  // Large, bold, architectural — style Initio
+  // Large, bold, architectural - style Initio
   return (
     <svg
       className={className}
@@ -25,7 +25,7 @@ export function IconInitio({ className }) {
 }
 
 export function IconHorace({ className }) {
-  // Slim, moderne, fond arrondi — style Horace
+  // Slim, moderne, fond arrondi - style Horace
   return (
     <svg
       className={className}
@@ -48,8 +48,34 @@ export function IconHorace({ className }) {
   )
 }
 
+export function IconYSL({ className }) {
+  // Rectangulaire, monolithique - style MYSLF
+  return (
+    <svg
+      className={className}
+      viewBox="0 0 46 92"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="1.5"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
+      {/* Bouchon rectangulaire plat */}
+      <rect x="14" y="4" width="18" height="7" rx="0.5" />
+      {/* Col court */}
+      <rect x="18" y="11" width="10" height="6" />
+      {/* Corps monolithique - épaules droites */}
+      <rect x="6" y="17" width="34" height="68" rx="1" />
+      {/* Logo YSL gravé - ligne horizontale centrale */}
+      <line x1="6" y1="51" x2="40" y2="51" />
+      {/* Détail bas */}
+      <line x1="6" y1="76" x2="40" y2="76" />
+    </svg>
+  )
+}
+
 export function IconGuerlain({ className }) {
-  // Classique, épaules courbes, proportions raffinées — style Guerlain
+  // Classique, épaules courbes, proportions raffinées - style Guerlain
   return (
     <svg
       className={className}

@@ -202,6 +202,115 @@ img {
 }
 
 /* ─────────────────────────────────────────────
+   CHRONIQUES PAGE HEADER
+───────────────────────────────────────────── */
+.chroniques-header {
+  padding: 5rem 2.5rem 3.5rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.chroniques-header__inner {
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+.chroniques-header__eyebrow {
+  font-family: var(--font-sans);
+  font-size: 0.65rem;
+  font-weight: 400;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 1.25rem;
+}
+
+.chroniques-header__title {
+  font-family: var(--font-serif);
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  font-weight: 300;
+  line-height: 1.1;
+  color: var(--text);
+  margin-bottom: 1.25rem;
+}
+
+.chroniques-header__intro {
+  font-family: var(--font-serif);
+  font-size: 1rem;
+  font-style: italic;
+  font-weight: 300;
+  color: var(--muted);
+  max-width: 560px;
+  line-height: 1.7;
+}
+
+/* ─────────────────────────────────────────────
+   ABOUT PAGE
+───────────────────────────────────────────── */
+.about-page__body {
+  max-width: var(--content-width);
+  margin: 0 auto;
+  padding: 5rem 2.5rem 8rem;
+}
+
+.about-page__divider {
+  height: 1px;
+  background: var(--border);
+  margin: 4rem 0;
+}
+
+.about-section {
+  display: grid;
+  grid-template-columns: 160px 1fr;
+  gap: 0 3rem;
+}
+
+.about-section__eyebrow {
+  font-family: var(--font-sans);
+  font-size: 0.65rem;
+  font-weight: 400;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--accent);
+  padding-top: 0.4rem;
+  grid-column: 1;
+  grid-row: 1 / span 3;
+}
+
+.about-section__title {
+  font-family: var(--font-serif);
+  font-size: 1.75rem;
+  font-weight: 300;
+  color: var(--text);
+  line-height: 1.2;
+  margin-bottom: 1.5rem;
+  grid-column: 2;
+}
+
+.about-section__text {
+  font-family: var(--font-serif);
+  font-size: 1.05rem;
+  font-weight: 300;
+  color: var(--text-light);
+  line-height: 1.85;
+  margin-bottom: 1.25rem;
+  grid-column: 2;
+}
+
+.about-section__text:last-child {
+  margin-bottom: 0;
+}
+
+.about-section__link {
+  color: var(--accent);
+  border-bottom: 1px solid currentColor;
+  transition: opacity 0.2s ease;
+}
+
+.about-section__link:hover {
+  opacity: 0.7;
+}
+
+/* ─────────────────────────────────────────────
    ARTICLE LIST
 ───────────────────────────────────────────── */
 .article-list {
@@ -613,7 +722,7 @@ img {
 }
 
 /* ─────────────────────────────────────────────
-   RESPONSIVE — TABLETTE (≤ 960px)
+   RESPONSIVE - TABLETTE (≤ 960px)
 ───────────────────────────────────────────── */
 @media (max-width: 960px) {
   .article-card {
@@ -624,10 +733,16 @@ img {
   .article-card__cta {
     display: none;
   }
+
+  /* About */
+  .about-section {
+    grid-template-columns: 120px 1fr;
+    gap: 0 2rem;
+  }
 }
 
 /* ─────────────────────────────────────────────
-   RESPONSIVE — MOBILE (≤ 768px)
+   RESPONSIVE - MOBILE (≤ 768px)
 ───────────────────────────────────────────── */
 @media (max-width: 768px) {
   html {
@@ -731,6 +846,34 @@ img {
 
   .perfume-heading__name {
     font-size: 1.3rem;
+  }
+
+  /* Chroniques header */
+  .chroniques-header {
+    padding: 3rem 1.25rem 2.5rem;
+  }
+
+  /* About page */
+  .about-page__body {
+    padding: 3rem 1.25rem 5rem;
+  }
+
+  .about-page__divider {
+    margin: 2.5rem 0;
+  }
+
+  .about-section {
+    display: block;
+  }
+
+  .about-section__eyebrow {
+    display: block;
+    margin-bottom: 0.75rem;
+  }
+
+  .about-section__title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
   }
 
   /* Footer */
