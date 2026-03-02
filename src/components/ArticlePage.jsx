@@ -74,7 +74,7 @@ export default function ArticlePage() {
         type="article"
       />
       <div className="article-page__back-wrapper">
-        <button className="article-page__back" onClick={() => navigate('/')}>
+        <button className="article-page__back" onClick={() => navigate('/chroniques')}>
           <span className="article-page__back-arrow">←</span>
           Toutes les chroniques
         </button>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Hbof</title>
+    <script>
+      // Redirect SPA routes to index.html (GitHub Pages fix)
+      // https://github.com/rafgraph/spa-github-pages
+      var l = window.location
+      l.replace(
+        l.protocol +
+          '//' +
+          l.hostname +
+          (l.port ? ':' + l.port : '') +
+          '/?/' +
+          l.pathname.slice(1).replace(/&/g, '~and~') +
+          (l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : '') +
+          l.hash
+      )
+    </script>
+  </head>
+  <body></body>
+</html>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <rect width="32" height="32" rx="6" fill="#F7F4EF"/>
+  <rect x="0.5" y="0.5" width="31" height="31" rx="5.5" fill="none" stroke="#DDD7CE" stroke-width="1"/>
+  <text
+    x="16" y="24"
+    font-family="Georgia, serif"
+    font-size="23"
+    font-weight="600"
+    text-anchor="middle"
+    fill="#C4955A"
+  >H</text>
+</svg>

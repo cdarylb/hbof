@@ -5,6 +5,7 @@ import ArticleList from './components/ArticleList'
 import ChroniquesPage from './components/ChroniquesPage'
 import AProposPage from './components/AProposPage'
 import ArticlePage from './components/ArticlePage'
+import NotFoundPage from './components/NotFoundPage'
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
             <Route path="/chroniques" element={<ChroniquesPage />} />
             <Route path="/a-propos" element={<AProposPage />} />
             <Route path="/article/:slug" element={<ArticlePage />} />
+            <Route path="*" element={<NotFoundPage />} />
           </Routes>
         </main>
         <Footer />
