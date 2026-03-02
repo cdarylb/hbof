@@ -5,8 +5,7 @@ export default function Header() {
     <header className="header">
       <div className="header__inner">
         <Link to="/" className="header__brand">
-          <span className="header__name">Hector</span>
-          <span className="header__tagline">Chroniques olfactives</span>
+          <span className="header__logo">Hbof.</span>
         </Link>
         <nav>
           <ul className="header__nav">
