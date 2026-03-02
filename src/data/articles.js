@@ -9,7 +9,7 @@ export const articles = [
       'MYSLF est la ligne de parfums masculine d\'Yves Saint Laurent lancée en 2023, construite autour d\'un duo fleur d\'oranger-patchouli. Ce qui distingue cette ligne, c\'est sa capacité à décliner un ADN fort en trois fragrances aux facettes radicalement différentes : clean scent, boisé ambré sombre et agrumes épicés sucrés.',
     date: '2 Mars 2026',
     author: 'Hector',
-    readTime: '7',
+    readTime: '4',
     body: [
       {
         type: 'paragraph',
@@ -71,7 +71,7 @@ export const articles = [
       'Le oud est un ingrédient rarissime et très opulent en parfumerie. Lorsque l\'Aquilaria, un arbre d\'Asie du Sud-Est, est infecté par un certain champignon, il produit une résine sombre et odorante pour se défendre - à l\'origine d\'un des ingrédients les plus précieux du monde.',
     date: '12 Février 2026',
     author: 'Hector',
-    readTime: '7',
+    readTime: '4',
     body: [
       {
         type: 'paragraph',
