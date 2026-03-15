@@ -14,12 +14,32 @@ export const articles = [
       {
         type: 'paragraph',
         content:
-          'Parmi toutes les différentes lignes de parfums pour homme de chez Yves Saint Laurent, celle qui a le plus retenu mon attention c\'est MYSLF. Pour cette nouvelle ligne lancée en 2023, l\'intention de YSL a été de créer la fragrance audacieuse de l\'homme moderne, qui accepte toutes ses facettes et ses émotions. Pour réaliser ce défi ils ont travaillé un absolu de fleur d\'oranger, une note florale historiquement féminine en l\'accompagnant de patchouli pour un côté boisé qui tend plus à la masculinité. Jusqu\'à aujourd\'hui, MYSLF présente 3 fragrances : L\'Eau de Parfum, Le Parfum et L\'Absolu (dans l\'ordre chronologique croissant de parution). Bien sûr si je devais vous présenter chaque ligne de parfums qui a un message impactant et actuel on en aurait jusqu\'à l\'année prochaine mais si je vous parle de MYSLF aujourd\'hui c\'est pour plus que ça…',
+          'Parmi toutes les lignes de parfums masculins de la maison Yves Saint Laurent, celle qui m\'a le plus marqué ces dernières années, c\'est clairement MYSLF. Lancée en 2023, cette collection repose sur une idée simple mais très actuelle : créer le parfum de l\'homme moderne. Un homme qui assume toutes ses facettes, ses émotions, sa sensibilité, sans chercher à rentrer dans un moule.',
       },
       {
         type: 'paragraph',
         content:
-          'En effet ce qui m\'a séduit avec cette ligne c\'est la maîtrise de l\'ADN dans chaque nouvelle création. Pour que ça soit plus clair je vais utiliser le contre-exemple de la ligne Stronger With You de Emporio Armani. J\'adore les Stronger With You ils sont vraiment très hauts dans mon top de parfums pour l\'hiver mais chaque création de la ligne se ressemble trop. La différence des SWY avec les MYSLF c\'est la signature châtaigne-vanille qui est magnifique mais qui est si dense qu\'elle sature les nuances apportées dans les différentes versions de la ligne… À cause de ça au quotidien on est plus souvent avec les notes de fond de châtaigne-vanille que sur les subtilités qui font la différence (je vous parlerai plus en détail de cette ligne un jour car elle en vaut vraiment le coup !). En comparaison, MYSLF explore dans chaque fragrance des facettes différentes avec cette fleur d\'oranger-patchouli : on a du clean scent, mais aussi du boisé plus sombre et même du sucré !',
+          'Pour traduire ça en parfum, la marque a fait un choix assez audacieux : mettre en avant la fleur d\'oranger, une note florale historiquement très associée aux parfums féminins. Mais elle est ici accompagnée de patchouli, qui apporte un côté boisé plus profond et plus masculin. Le résultat est super équilibré et très moderne.',
+      },
+      {
+        type: 'paragraph',
+        content:
+          'Aujourd\'hui, la gamme MYSLF compte trois fragrances sorties dans cet ordre : L\'Eau de Parfum, Le Parfum et L\'Absolu.',
+      },
+      {
+        type: 'paragraph',
+        content:
+          'Des lignes de parfums avec un message fort, il y en a beaucoup. Si je devais toutes les passer en revue on en aurait pour un moment. Mais si je parle de MYSLF aujourd\'hui, c\'est surtout pour une autre raison : la maîtrise de son ADN.',
+      },
+      {
+        type: 'paragraph',
+        content:
+          'Pour expliquer ça simplement, je vais prendre un contre-exemple : la ligne Stronger With You de Emporio Armani. J\'adore ces parfums, ils sont même très bien placés dans mon top des fragrances d\'hiver. Mais les différentes versions se ressemblent beaucoup. Leur signature châtaigne-vanille est incroyable, mais elle est tellement puissante qu\'elle finit par masquer les nuances entre les déclinaisons. Au quotidien, on sent surtout cette base gourmande et les subtilités passent un peu au second plan.',
+      },
+      {
+        type: 'paragraph',
+        content:
+          'Avec MYSLF, c\'est presque l\'inverse. Chaque nouveau parfum explore une facette différente du duo fleur d\'oranger – patchouli. On peut passer d\'un parfum très propre et lumineux à quelque chose de plus sombre, plus boisé, voire légèrement sucré. La signature reste reconnaissable, mais chaque version a vraiment sa personnalité.',
       },
       {
         type: 'perfume-heading',
@@ -30,7 +50,22 @@ export const articles = [
       {
         type: 'paragraph',
         content:
-          'Pour l\'anecdote ça a été mon tout premier parfum de designer, ça fait bientôt 2 ans que je le porte au quotidien ! Quand je vous dis que MYSLF m\'a vraiment charmé c\'est du sérieux !! On part sur une composition très simple pour la première création de la ligne avec de la bergamote, le duo fleur d\'oranger-patchouli et de l\'ambrofix. Très simple mais ça marche ! C\'est très pétillant sur l\'ouverture avec la bergamote mais pas zesté ni piquant, ça reste super propre, parfaitement maîtrisé, pour celui là : le défi de YSL est relevé haut la main ! Un excellent clean scent pour le quotidien pour se sentir comme l\'homme de la situation. Le flacon de forme rectangulaire est en verre noir transparent avec le logo YSL moulé directement dans la masse du verre.',
+          'Petite anecdote : c\'est mon tout premier parfum de designer. Et ça fait bientôt deux ans que je le porte quasiment tous les jours. Quand je dis que MYSLF m\'a vraiment conquis, ce n\'est pas une blague.',
+      },
+      {
+        type: 'paragraph',
+        content:
+          'La composition est très simple : de la bergamote en ouverture, le duo fleur d\'oranger-patchouli et de l\'ambrofix en fond. Mais parfois la simplicité marche parfaitement.',
+      },
+      {
+        type: 'paragraph',
+        content:
+          'L\'ouverture est pétillante grâce à la bergamote, mais sans être agressive ni trop zestée. Ça reste très propre, très maîtrisé. C\'est exactement le genre de parfum qui donne une sensation nette et élégante au quotidien.',
+      },
+      {
+        type: 'paragraph',
+        content:
+          'Le flacon est rectangulaire, en verre noir transparent, avec le logo YSL directement moulé dans le verre. Simple, mais très réussi.',
       },
       {
         type: 'perfume-heading',
@@ -41,7 +76,27 @@ export const articles = [
       {
         type: 'paragraph',
         content:
-          'Mon deuxième parfum de designer… Dès sa sortie j\'ai sauté dessus mais attention celui là est tout à fait différent de l\'edp. Pour la composition de celui là on a du poivre noir en note de tête, on est bien loin de la bergamote rafraîchissante de l\'edp. La promesse de cette version est une version ambrée plus sombre et c\'est réussi, de même que le défi posé de base ! En plus du duo fleur d\'oranger-patchouli, on retrouve dans les notes de fond un accord ambré et vanillé qui contrastent cette fraîcheur florale en beauté. Il est bien moins linéaire que l\'edp qui change très peu au fil de la journée puisque celui ci démarre sur le poivre noir et le duo combo gagnant de fleur d\'oranger-patchouli et au bout de quelques heures laisse place aux accords ambrés et vanillés plus masculins qui assurent une bonne tenue au parfum, comme c\'est des notes assez lourdes. Sur Le Parfum, le monolithe est toujours paru de verre noir, mais cette fois noir mat, on ne voit pas le liquide à travers.',
+          'Celui-ci est devenu mon deuxième parfum de designer. Dès sa sortie je l\'ai acheté, mais il faut savoir qu\'il est très différent de l\'Eau de Parfum.',
+      },
+      {
+        type: 'paragraph',
+        content:
+          'Ici, la tête s\'ouvre sur du poivre noir. On est très loin de la fraîcheur de la bergamote. L\'idée de cette version était de proposer quelque chose de plus sombre et plus ambré, et le résultat est vraiment réussi.',
+      },
+      {
+        type: 'paragraph',
+        content:
+          'On retrouve toujours le duo fleur d\'oranger-patchouli, mais le fond apporte un accord ambré et vanillé qui donne beaucoup plus de profondeur.',
+      },
+      {
+        type: 'paragraph',
+        content:
+          'Contrairement à l\'Eau de Parfum qui reste assez linéaire, celui-ci évolue vraiment dans la journée. Il démarre avec le poivre noir et les notes florales boisées, puis après quelques heures les accords ambrés et vanillés prennent le dessus. Comme ce sont des notes assez lourdes, la tenue est excellente.',
+      },
+      {
+        type: 'paragraph',
+        content:
+          'Le flacon garde le même design monolithique, mais cette fois en verre noir mat. On ne voit plus le liquide à travers, ce qui renforce le côté plus sombre du parfum.',
       },
       {
         type: 'perfume-heading',
@@ -52,12 +107,52 @@ export const articles = [
       {
         type: 'paragraph',
         content:
-          'Celui-ci a également rejoint ma collection et c\'est certainement mon préféré des trois. Avec une ouverture de gingembre, de bergamote et de cardamome on a une magnifique ouverture d\'agrume épicée, pétillante, même sucrée qui laisse une place de choix à notre duo gagnant qui adoucit légèrement le jeu épicé/sucré avec la touche boisé/floral que j\'adore chez MYSLF. Malgré le retour aux sources de la bergamote qu\'on avait aussi dans l\'edp, L\'Absolu est absolument différent de ce dernier. Si vous n\'avez pas encore votre parfum pour le printemps, L\'Absolu est parfait pour cette saison je trouve, il passe aussi bien en hiver qu\'en été également. Ici le flacon se débarrasse du noir de ses 2 grands frères puisqu\'il arbore une couleur argentée miroitante.',
+          'Celui-ci a aussi rejoint ma collection et c\'est probablement mon préféré des trois.',
       },
       {
         type: 'paragraph',
         content:
-          'J\'espère sincèrement avoir piqué votre curiosité sur cette ligne et que vous irez sentir les 3 parfums si c\'est pas déjà fait, ils valent vraiment le détour. La plus grande force de MYSLF comme je vous disais c\'est la différence flagrante entre les 3 versions mais qui tout de même garde un ADN marqué et identifiable. Le fait d\'avoir les 3 parfums d\'une même ligne peut souvent être une erreur car on peut se retrouver confronté aux mêmes notes persévérantes sur toute la ligne mais ici c\'est l\'inverse, il FAUT adopter la ligne entière qui convient parfaitement à toutes les occasions. À chaque analyse des 3 fragrances je vous ai parlé du flacon et ce n\'était pas pour rien ! Je trouve que les flacons reflètent tellement le parfum : le transparent noir est un clean scent légèrement boisé, le noir mat est un boisé ambré plus sombre, et je ne sais pas expliquer pourquoi mais l\'argenté retranscrit trop bien le jus de L\'Absolu - vous comprendrez en le sentant, moi j\'arrive vraiment pas à expliquer ce feeling… Pour MYSLF, les flacons sont tous les 3 rechargeables, ce qui n\'est pas le cas de toute la gamme de parfums de YSL, c\'est un petit plus que je tenais à ajouter car il reste important de penser écologie quand on achète son parfum (et économie !).',
+          'L\'ouverture est magnifique : gingembre, bergamote et cardamome créent un départ agrume-épicé très énergique. C\'est pétillant, légèrement sucré et vraiment agréable.',
+      },
+      {
+        type: 'paragraph',
+        content:
+          'Ensuite, le duo fleur d\'oranger-patchouli revient naturellement et vient adoucir les épices avec cette touche florale et boisée typique de MYSLF.',
+      },
+      {
+        type: 'paragraph',
+        content:
+          'Même si la bergamote est de retour comme dans l\'Eau de Parfum, L\'Absolu est complètement différent. Je le trouve parfait pour le printemps, mais il fonctionne aussi très bien en hiver ou en été.',
+      },
+      {
+        type: 'paragraph',
+        content:
+          'Cette fois, le flacon abandonne complètement le noir pour une finition argentée miroir.',
+      },
+      {
+        type: 'paragraph',
+        content:
+          'J\'espère vraiment vous avoir donné envie d\'aller découvrir cette ligne si ce n\'est pas déjà fait.',
+      },
+      {
+        type: 'paragraph',
+        content:
+          'La grande force de MYSLF, c\'est que les trois parfums sont très différents, tout en gardant une signature identifiable. Souvent, posséder plusieurs parfums d\'une même ligne peut être redondant. On retrouve les mêmes notes partout. Ici c\'est l\'inverse : chaque version a son moment et son ambiance.',
+      },
+      {
+        type: 'paragraph',
+        content:
+          'Et les flacons reflètent assez bien les parfums. Le noir transparent correspond parfaitement au côté propre et légèrement boisé de l\'Eau de Parfum. Le noir mat représente bien le côté plus sombre et ambré du Parfum. Et l\'argenté… difficile à expliquer, mais il correspond parfaitement à l\'énergie de L\'Absolu. C\'est un ressenti qu\'on comprend surtout en le sentant.',
+      },
+      {
+        type: 'paragraph',
+        content:
+          'Dernier détail que j\'apprécie beaucoup : les trois flacons sont rechargeables. Ce n\'est pas le cas de toute la gamme de parfums de Yves Saint Laurent, donc c\'est un vrai plus. C\'est à la fois plus écologique et plus économique.',
+      },
+      {
+        type: 'paragraph',
+        content:
+          'Si une ligne mérite d\'être adoptée dans son ensemble, pour moi c\'est clairement MYSLF !',
       },
     ],
   },
@@ -76,17 +171,62 @@ export const articles = [
       {
         type: 'paragraph',
         content:
-          'Le oud, c\'est un ingrédient rarissime et très opulent en parfumerie, son origine est très particulière. Lorsque l\'Aquilaria - un arbre d\'Asie du Sud-Est - est infecté par un certain champignon, il produit une résine sombre et odorante pour se défendre. Cette résine permet ensuite, en étant distillée, d\'obtenir l\'huile de oud. Ce phénomène est tellement rare qu\'on estime que moins de 2 % des arbres sauvages produisent cette résine. Les conditions sont tellement précises pour que l\'arbre la développe que c\'est pour ça qu\'on l\'appelle "l\'or noir" de la parfumerie.',
+          'Le oud, c\'est probablement l\'un des ingrédients les plus fascinants de toute la parfumerie. Rare, puissant, presque mythique. Et surtout, son origine est complètement folle.',
       },
       {
         type: 'paragraph',
         content:
-          'Historiquement, le oud était utilisé dans des pays comme la Chine, l\'Inde et le Vietnam il y a plus de 3 000 ans sous forme d\'encens sacré. Au Moyen-Âge, il est devenu un indispensable dans la parfumerie du monde arabe, mais également une monnaie d\'échange - tant ce produit est rare, il en est devenu un produit de luxe diplomatique. Aujourd\'hui, dans le temple Shōsō-in à Nara, on conserve un morceau de bois de oud de 1,5 mètre de long, appelé Ranjatai. Il a été offert à l\'Empereur Shōmu en l\'an 756 ; pendant des siècles, seuls les plus grands dirigeants du Japon ont eu le privilège d\'en couper un petit morceau pour le brûler. Même Charlemagne a reçu du oud de la part du calife de Bagdad, Haroun al-Rachid.',
+          'Tout commence avec l\'Aquilaria, un arbre qui pousse en Asie du Sud-Est. Quand cet arbre est infecté par un champignon bien spécifique, il se défend en produisant une résine sombre et ultra parfumée. C\'est cette résine qui, une fois distillée, donne la fameuse huile de oud.',
       },
       {
         type: 'paragraph',
         content:
-          'C\'est un ingrédient super intéressant et chargé d\'histoire, il n\'y a pas à dire - mais j\'adhère pas du tout à l\'odeur personnellement, même si elle reste tout à fait appréciable ! Aujourd\'hui on a des parfums français au oud, et ce depuis 2002 avec le "M7" d\'Yves Saint Laurent. Le oud, jugé trop fort par le nez européen, a pris son temps pour se faire dompter, notamment par les parfumeurs français Alberto Morillas (M7 de YSL) ou Francis Kurkdjian (Oud Silk Mood), qui ont su nous faire apprécier cette note en la mêlant aux codes de la parfumerie française - fleurs, vanille, agrumes. Même si je n\'apprécie pas cette note, j\'ai quand même fait l\'effort pour vous de sentir trois parfums au oud radicalement opposés afin de voir de quelle manière il peut être exploité et décliné.',
+          'Le truc, c\'est que ce phénomène est extrêmement rare. On estime que moins de 2 % des arbres sauvages développent cette résine. Les conditions doivent être tellement précises que le oud est souvent surnommé "l\'or noir de la parfumerie".',
+      },
+      {
+        type: 'paragraph',
+        content:
+          'Et ce n\'est pas qu\'une question d\'odeur : c\'est aussi un ingrédient chargé d\'histoire.',
+      },
+      {
+        type: 'paragraph',
+        content:
+          'Il y a plus de 3 000 ans déjà, le bois de oud était brûlé comme encens sacré en Chine, en Inde ou encore au Vietnam. Au Moyen Âge, il devient incontournable dans la parfumerie du monde arabe. Sa rareté est telle qu\'il sert même de monnaie d\'échange diplomatique.',
+      },
+      {
+        type: 'paragraph',
+        content:
+          'Un exemple incroyable : au temple Shōsō-in, au Todai-ji, on conserve un immense morceau de bois de oud de 1,5 mètre, appelé Ranjatai. Il aurait été offert à l\'empereur Emperor Shōmu en 756. Pendant des siècles, seuls les dirigeants japonais avaient le privilège d\'en couper un minuscule morceau pour le brûler.',
+      },
+      {
+        type: 'paragraph',
+        content:
+          'Même en Europe, le oud a marqué l\'histoire : Charlemagne aurait reçu du bois de oud en cadeau du calife Harun al-Rashid.',
+      },
+      {
+        type: 'paragraph',
+        content:
+          'Bref, un ingrédient fascinant, rare et ultra symbolique.',
+      },
+      {
+        type: 'paragraph',
+        content:
+          'Mais je vais être honnête : personnellement, je ne suis pas un grand fan de l\'odeur. Je reconnais totalement son intérêt et sa richesse… mais ce n\'est pas ce que je préfère porter. Malgré ça, j\'ai quand même voulu explorer le sujet.',
+      },
+      {
+        type: 'paragraph',
+        content:
+          'Dans la parfumerie française moderne, le oud apparaît vraiment en 2002 avec M7 de Yves Saint Laurent. À l\'époque, la note est jugée beaucoup trop puissante pour les goûts européens. Les parfumeurs vont donc apprendre à la travailler différemment, en la mélangeant avec les codes de la parfumerie occidentale : fleurs, agrumes, vanille.',
+      },
+      {
+        type: 'paragraph',
+        content:
+          'Des créateurs comme Alberto Morillas ou Francis Kurkdjian ont largement contribué à rendre le oud plus accessible.',
+      },
+      {
+        type: 'paragraph',
+        content:
+          'Même si ce n\'est pas ma note favorite, j\'ai quand même senti trois parfums très différents pour voir comment elle peut être utilisée.',
       },
       {
         type: 'perfume-heading',
@@ -97,7 +237,27 @@ export const articles = [
       {
         type: 'paragraph',
         content:
-          'Vous connaissez déjà mon avis sur le oud et ce parfum, qui vante jusque dans son nom la grandeur de la matière, ne m\'a pas plu du tout au début. Objectivement c\'est une super odeur de oud qui se mêle bien avec le safran et la noix de muscade, mais subjectivement c\'est pas ce que j\'aime - beaucoup trop fort et boisé pour moi qui suis adepte de parfums plus frais et lumineux. Là c\'est sec et sombre. En laissant le parfum se développer on remarque un tout petit côté frais qu\'apporte la lavande avec le safran, mais le oud ne se laisse pas démonter. Au bout de quelques heures seulement, il cède au musc et au patchouli qui accentuent la fraîcheur, mais on sent toujours l\'intention sombre et fortement boisée. C\'est honnêtement très bien si vous voulez un parfum fort et mystérieux à la fois.',
+          'Vous connaissez déjà mon avis sur le oud, et celui-ci n\'a clairement pas changé la donne au début.',
+      },
+      {
+        type: 'paragraph',
+        content:
+          'Comme son nom l\'indique, Oud for Greatness met le oud au centre de tout. Et franchement, il est massif. Le mélange avec le safran et la noix de muscade est très réussi objectivement, mais pour moi c\'est trop sombre et trop sec.',
+      },
+      {
+        type: 'paragraph',
+        content:
+          'Au départ, c\'est vraiment une ambiance boisée, mystérieuse, presque intimidante. Avec le temps, une petite fraîcheur apparaît grâce à la lavande et au safran, mais le oud reste dominant.',
+      },
+      {
+        type: 'paragraph',
+        content:
+          'Après quelques heures, le musc et le patchouli prennent un peu plus de place et apportent un léger côté plus doux. Mais l\'intention reste la même : un parfum puissant, sombre et très affirmé.',
+      },
+      {
+        type: 'paragraph',
+        content:
+          'Si vous cherchez un parfum mystérieux et intense, celui-là fait clairement le job.',
       },
       {
         type: 'perfume-heading',
@@ -108,7 +268,32 @@ export const articles = [
       {
         type: 'paragraph',
         content:
-          'Celui-là je l\'ai senti par hasard dans une des boutiques Horace - c\'est un mélange très intéressant de la douceur de la rose de Damas et de la force du oud. L\'envie de Horace avec Oud Rose était de refléter l\'image d\'un smoking léopard qu\'on porte pour aller à l\'opéra. Une mise en contexte très détaillée qui rappelle ce que fait Maison Margiela avec sa Collection Replica - et on comprend rapidement l\'idée quand on le sent. Le créateur voulait mettre la rose au centre d\'un parfum pour homme en la travaillant d\'une façon assez marquée. Assez frais au premier abord avec cette rose habillée de géranium et du bourgeon de cassis, l\'accord boisé de oud rapporte une présence animale qui rend la description d\'origine tout à fait réaliste. En somme il est bien moins assommant que le Oud for Greatness, très chic, et j\'aime beaucoup. Détail qui fait la différence : il a un très bon rapport qualité prix. Une telle qualité pour 62 € les 50 ml, c\'est plutôt rare.',
+          'Celui-ci, je l\'ai découvert complètement par hasard dans une boutique Horace.',
+      },
+      {
+        type: 'paragraph',
+        content:
+          'Oud Rose mélange deux univers assez opposés : la rose de Damas et le oud. L\'idée de la marque était d\'évoquer l\'image d\'un smoking léopard porté pour aller à l\'opéra. Une description très imagée, un peu comme ce que fait Maison Margiela avec sa collection Replica.',
+      },
+      {
+        type: 'paragraph',
+        content:
+          'Et honnêtement, on comprend assez vite l\'idée.',
+      },
+      {
+        type: 'paragraph',
+        content:
+          'Au début, le parfum est assez frais grâce à la rose, au géranium et au bourgeon de cassis. Puis le oud arrive doucement et apporte un côté plus animal, plus texturé.',
+      },
+      {
+        type: 'paragraph',
+        content:
+          'Résultat : un parfum beaucoup plus équilibré et moins écrasant que Oud for Greatness. Très chic, assez original… et franchement réussi.',
+      },
+      {
+        type: 'paragraph',
+        content:
+          'Petit bonus qui compte : le rapport qualité-prix est excellent. 62 € pour 50 ml pour un parfum de cette qualité, c\'est assez rare.',
       },
       {
         type: 'perfume-heading',
@@ -119,17 +304,57 @@ export const articles = [
       {
         type: 'paragraph',
         content:
-          'Pour être honnête je ne comptais pas en parler à l\'origine, car je n\'y avais pas prêté attention tant il est peu vendu comme un parfum au oud. Je l\'ai remarqué en parfumerie et, comme je travaillais cet article, je l\'ai senti pour la première fois en pensant à comment j\'allais décrire un mélange d\'un yuzu acide et d\'un oud amer. C\'est assez dur à décrire alors qu\'il est pourtant assez simple - c\'est comme une bataille entre le oud et le yuzu. Pour le comparer aux autres, il est bien moins fort en oud que Oud Rose. On sent très bien la fraîcheur du yuzu, mais aussi le oud, qui est bien moins sombre que dans les autres parfums. Un bel équilibre, presque apaisant.',
-      },
-      {
-        type: 'quote',
-        content:
-          'La plupart des parfums à base de oud qu\'on connaît ne sont pas toujours faits à partir de vrai oud - c\'est très souvent des accords synthétiques à base de cypriol.',
+          'À la base, je ne comptais même pas parler de celui-ci. Je ne l\'avais jamais vraiment considéré comme un parfum au oud.',
       },
       {
         type: 'paragraph',
         content:
-          'Maintenant vous êtes pas mal renseignés sur l\'origine du oud et comment il est utilisé en parfumerie française ! Évidemment il existe plein d\'autres parfums certainement bien plus intéressants que ceux que j\'ai traités aujourd\'hui, mais je trouvais le parallèle entre les trois intéressant. Une chose importante à savoir : la plupart des parfums à base de oud qu\'on connaît ne sont pas toujours faits à partir de vrai oud, c\'est très souvent des accords synthétiques à base de cypriol, qui a une odeur de bois fumé. Certaines marques ont l\'honnêteté de le mentionner (comme Horace), mais d\'autres ne le mentionnent pas du tout - alors faites attention aux parfums que vous sentez si vous voulez un avis fondé sur le vrai oud !',
+          'Mais en travaillant cet article, je suis tombé sur Oud Yuzu en parfumerie… et là j\'ai compris pourquoi il est intéressant.',
+      },
+      {
+        type: 'paragraph',
+        content:
+          'Le concept est simple : faire cohabiter un yuzu très acide avec un oud plus amer.',
+      },
+      {
+        type: 'paragraph',
+        content:
+          'Au début, ça ressemble presque à un duel entre les deux notes. Le yuzu apporte une fraîcheur très vive, tandis que le oud vient structurer le parfum avec un côté boisé.',
+      },
+      {
+        type: 'paragraph',
+        content:
+          'Comparé aux deux autres, le oud est beaucoup plus discret. Il est moins sombre, moins imposant. Du coup, l\'ensemble est plus équilibré, presque apaisant.',
+      },
+      {
+        type: 'paragraph',
+        content:
+          'C\'est clairement la version la plus accessible des trois.',
+      },
+      {
+        type: 'paragraph',
+        content:
+          'Petite chose importante à savoir : la plupart des parfums au oud que vous sentez ne contiennent pas forcément du vrai oud.',
+      },
+      {
+        type: 'paragraph',
+        content:
+          'La matière étant extrêmement rare et chère, beaucoup de parfumeurs utilisent des accords synthétiques, souvent basés sur le cypriol, une plante qui donne une odeur de bois fumé assez proche.',
+      },
+      {
+        type: 'paragraph',
+        content:
+          'Certaines marques jouent la transparence et le mentionnent clairement, comme Horace. D\'autres… beaucoup moins.',
+      },
+      {
+        type: 'paragraph',
+        content:
+          'Donc si vous voulez vraiment vous faire une idée du vrai oud, ça vaut toujours le coup de regarder de plus près la composition des parfums que vous testez.',
+      },
+      {
+        type: 'paragraph',
+        content:
+          'Et même si ce n\'est pas ma note préférée, il faut reconnaître une chose : peu d\'ingrédients en parfumerie ont une histoire aussi riche que le oud.',
       },
     ],
   },
