@@ -39,7 +39,7 @@ export const articles = [
         type: 'perfume-heading',
         name: 'Oud Yuzu',
         brand: 'Guerlain',
-        icon: 'guerlain',
+        icon: 'pyramid',
       },
       {
         type: 'paragraph',
@@ -88,7 +88,7 @@ export const articles = [
         type: 'perfume-heading',
         name: 'MYSLF : L\'Eau de Parfum',
         brand: 'Yves Saint Laurent',
-        icon: 'ysl',
+        icon: 'drop',
       },
       {
         type: 'paragraph',
@@ -118,7 +118,7 @@ export const articles = [
         type: 'perfume-heading',
         name: 'MYSLF : L\'Absolu',
         brand: 'Yves Saint Laurent - Designer',
-        icon: 'ysl',
+        icon: 'drop',
       },
       {
         type: 'paragraph',
@@ -129,7 +129,7 @@ export const articles = [
         type: 'perfume-heading',
         name: 'Oud for Greatness',
         brand: 'Initio Parfums Privés - Niche',
-        icon: 'initio',
+        icon: 'gem',
       },
       {
         type: 'paragraph',

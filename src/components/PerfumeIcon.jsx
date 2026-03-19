@@ -1,4 +1,59 @@
-// Trois silhouettes de flacons SVG, chacune inspirée du style de la marque
+// Silhouettes de flacons SVG, chacune inspirée du style de la marque
+
+// ── Icônes abstraites pour les articles guides ──────────────────────────────
+
+export function IconPyramid({ className }) {
+  return (
+    <svg
+      className={className}
+      viewBox="0 0 60 56"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="1.5"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
+      <path d="M30 4 L56 52 L4 52 Z" />
+      <line x1="4" y1="36" x2="56" y2="36" />
+      <line x1="17" y1="20" x2="43" y2="20" />
+    </svg>
+  )
+}
+
+export function IconDrop({ className }) {
+  return (
+    <svg
+      className={className}
+      viewBox="0 0 44 60"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="1.5"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
+      <path d="M22 4 C22 4 4 28 4 40 C4 51 12 57 22 57 C32 57 40 51 40 40 C40 28 22 4 22 4 Z" />
+    </svg>
+  )
+}
+
+export function IconGem({ className }) {
+  return (
+    <svg
+      className={className}
+      viewBox="0 0 60 60"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="1.5"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
+      <polygon points="30,4 56,22 56,38 30,56 4,38 4,22" />
+      <polygon points="30,4 56,22 30,56 4,22" />
+    </svg>
+  )
+}
+
+// ── Silhouettes de flacons ───────────────────────────────────────────────────
 
 export function IconInitio({ className }) {
   // Large, bold, architectural - style Initio
