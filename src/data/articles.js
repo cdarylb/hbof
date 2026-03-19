@@ -4,7 +4,7 @@ export const articles = [
     slug: 'kit-vocabulaire-parfumerie',
     category: 'Guide',
     title: 'Kit de vocabulaire : les essentiels de la parfumerie',
-    subtitle: 'Notes, accords, concentrations, niche, performances — tout ce qu\'il faut savoir pour parler parfum',
+    subtitle: 'Notes, accords, concentrations, niche, performances - tout ce qu\'il faut savoir pour parler parfum',
     excerpt:
       'Le vocabulaire de la parfumerie peut sembler complexe au premier abord, mais il suffit de quelques clés pour tout comprendre. Notes, accords, pyramide olfactive, concentrations, niche et designer : je vous équipe d\'un kit complet pour parler parfum.',
     date: '19 Mars 2026',
@@ -44,7 +44,7 @@ export const articles = [
       {
         type: 'paragraph',
         content:
-          'Un bon exemple de pyramide bien lisible : Oud Yuzu de Guerlain. En tête, le yuzu — vif et très éphémère, typiquement une note de tête agrumée. En fond, le oud — lourd, tenace, boisé, qui reste pendant des heures. Entre les deux, fleur d\'oranger et géranium assurent la transition. Trois étages, trois rôles distincts.',
+          'Un bon exemple de pyramide bien lisible : Oud Yuzu de Guerlain. En tête, le yuzu - vif et très éphémère, typiquement une note de tête agrumée. En fond, le oud - lourd, tenace, boisé, qui reste pendant des heures. Entre les deux, fleur d\'oranger et géranium assurent la transition. Trois étages, trois rôles distincts.',
       },
       {
         type: 'paragraph',
@@ -117,7 +117,7 @@ export const articles = [
       {
         type: 'perfume-heading',
         name: 'MYSLF : L\'Absolu',
-        brand: 'Yves Saint Laurent — Designer',
+        brand: 'Yves Saint Laurent - Designer',
         icon: 'ysl',
       },
       {
@@ -128,7 +128,7 @@ export const articles = [
       {
         type: 'perfume-heading',
         name: 'Oud for Greatness',
-        brand: 'Initio Parfums Privés — Niche',
+        brand: 'Initio Parfums Privés - Niche',
         icon: 'initio',
       },
       {
