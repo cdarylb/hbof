@@ -39,7 +39,7 @@ export const articles = [
       {
         type: 'paragraph',
         content:
-          'Un bon exemple de pyramide bien lisible : Oud Yuzu de Guerlain. En tête, le yuzu - vif et très éphémère, typiquement une note de tête agrumée. En fond, le oud - lourd, tenace, boisé, qui reste pendant des heures. Entre les deux, fleur d\'oranger et géranium assurent la transition. Trois étages, trois rôles distincts.',
+          'Un bon exemple de pyramide bien lisible : Levar del Sole de Xerjoff. En tête, un accord d\'agrumes rafraîchissant avec de la rose. En fond, un fort accord de caramel avec des notes de benjoin, boisées et de musc. Entre les deux, un accord floral de violette, jasmin et lys légèrement épicé avec de la cardamome assure la transition. Trois étages, trois rôles distincts.',
       },
       {
         type: 'paragraph',
