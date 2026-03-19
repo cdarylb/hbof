@@ -1,5 +1,183 @@
 export const articles = [
   {
+    id: 3,
+    slug: 'kit-vocabulaire-parfumerie',
+    category: 'Guide',
+    title: 'Kit de vocabulaire : les essentiels de la parfumerie',
+    subtitle: 'Notes, accords, concentrations, niche, performances — tout ce qu\'il faut savoir pour parler parfum',
+    excerpt:
+      'Le vocabulaire de la parfumerie peut sembler complexe au premier abord, mais il suffit de quelques clés pour tout comprendre. Notes, accords, pyramide olfactive, concentrations, niche et designer : je vous équipe d\'un kit complet pour parler parfum.',
+    date: '19 Mars 2026',
+    author: 'Hector',
+    readTime: '5',
+    body: [
+      {
+        type: 'paragraph',
+        content:
+          'En parfumerie, on utilise un vocabulaire très pointu qui peut paraître complexe quand on ne le maîtrise pas encore. En vérité, il n\'est pas compliqué à comprendre. Si il y a des termes que vous entendez et que vous n\'êtes pas toujours sûrs de comprendre, cet article est fait pour vous ! Aujourd\'hui, je vous équipe d\'un kit de vocabulaire sur la parfumerie.',
+      },
+      {
+        type: 'heading',
+        content: 'Les notes et les accords',
+      },
+      {
+        type: 'paragraph',
+        content:
+          'Pour décrire l\'odeur d\'un parfum il est fort probable que vous ayez déjà entendu l\'analogie musicale des notes et des accords. Ces termes repris du champ lexical de la musique ne s\'éloignent pas tant de leur définition d\'origine.',
+      },
+      {
+        type: 'paragraph',
+        content:
+          'Une note représente un ingrédient individuel ; il peut être naturel (essence de rose) ou synthétique (ambrofix). Le rôle d\'une note est d\'apporter une facette précise au parfum. On les classe aussi selon leur volatilité dans la pyramide olfactive.',
+      },
+      {
+        type: 'paragraph',
+        content:
+          'La pyramide olfactive découpe le parfum en trois étages. Le premier : les notes de tête. Il s\'agit des plus éphémères, on y trouve le plus souvent des agrumes ou des notes aromatiques fraîches comme la menthe. Si on les sent si peu c\'est car elles sont composées de très petites et légères molécules qui vont s\'évaporer plus rapidement au contact de la chaleur corporelle. On descend maintenant d\'un étage jusqu\'aux notes de cœur. C\'est le caractère du parfum, son ADN. Il s\'agit le plus souvent de fruits et de fleurs, on les remarque pendant quelques heures. Arrivés en bas de la pyramide on tombe finalement sur les notes de fond. Celles qu\'on va sentir pendant des heures, voire des jours selon le parfum. À l\'inverse des notes de tête, celles-ci sont bien plus tenaces et s\'accrochent mieux à la peau et aux vêtements (souvent des bois, des résines ou des muscs).',
+      },
+      {
+        type: 'perfume-heading',
+        name: 'Oud Yuzu',
+        brand: 'Guerlain',
+        icon: 'guerlain',
+      },
+      {
+        type: 'paragraph',
+        content:
+          'Un bon exemple de pyramide bien lisible : Oud Yuzu de Guerlain. En tête, le yuzu — vif et très éphémère, typiquement une note de tête agrumée. En fond, le oud — lourd, tenace, boisé, qui reste pendant des heures. Entre les deux, fleur d\'oranger et géranium assurent la transition. Trois étages, trois rôles distincts.',
+      },
+      {
+        type: 'paragraph',
+        content:
+          'Sortons de la pyramide et regardons maintenant les notes en détail. Avec l\'exemple d\'une note de cuir, vous convenez que ça ne correspond pas tout à fait à la définition que je vous faisais précédemment : le cuir n\'est pas un ingrédient individuel. On parle plutôt d\'un accord de cuir. Pour sentir du cuir dans un parfum on va "fabriquer la note" en utilisant différents ingrédients. Si notre mélange a fonctionné, on ne sentira pas les notes individuellement mais bien une odeur de cuir. Un accord peut être simple (deux notes) ou complexe (une dizaine).',
+      },
+      {
+        type: 'paragraph',
+        content:
+          'Dans le langage courant on parle souvent des accords comme étant des notes (note de cuir) pour simplifier en décrivant surtout la facette que l\'on perçoit.',
+      },
+      {
+        type: 'heading',
+        content: 'Concentration',
+      },
+      {
+        type: 'paragraph',
+        content:
+          'Pour comprendre un parfum il est essentiel de comprendre sa formule, sa concentration. Un parfum est composé d\'un certain pourcentage d\'alcool et d\'un concentré d\'ingrédients (huiles essentielles, absolus…) qui ressemble à un sirop épais. Au stade de concentré, le jus est trop puissant et parfois irritant pour pouvoir être appliqué directement sur la peau. Alors on le dilue dans de l\'alcool, comme il s\'évapore très vite, il est parfait pour propulser les molécules odorantes dans l\'air.',
+      },
+      {
+        type: 'paragraph',
+        content: 'Le parfumeur peut choisir un dosage plus ou moins fort en concentré odorant.',
+      },
+      {
+        type: 'paragraph',
+        content:
+          'L\'Eau de Cologne (2% à 5%) est la plus légère concentration. Elle est très majoritairement faite uniquement de notes de tête.',
+      },
+      {
+        type: 'paragraph',
+        content:
+          'L\'Eau de Toilette (5% à 15%) met le plus souvent l\'accent sur les notes de tête et de cœur, idéale pour un usage quotidien.',
+      },
+      {
+        type: 'paragraph',
+        content:
+          'L\'Eau de Parfum (15% à 20%) est le standard actuel de la parfumerie, un bon compromis entre les différentes concentrations.',
+      },
+      {
+        type: 'perfume-heading',
+        name: 'MYSLF : L\'Eau de Parfum',
+        brand: 'Yves Saint Laurent',
+        icon: 'ysl',
+      },
+      {
+        type: 'paragraph',
+        content:
+          'MYSLF EdP est un bon représentant du format Eau de Parfum : une concentration entre 15 et 20 % qui offre un équilibre confortable entre fraîcheur initiale et tenue. Ni trop évanescent comme une Eau de Cologne, ni aussi puissant qu\'un Extrait.',
+      },
+      {
+        type: 'paragraph',
+        content:
+          'L\'Extrait de Parfum (20% à 40%) est une concentration extrêmement riche bien plus axée sur les matières premières, très tenace et très cher.',
+      },
+      {
+        type: 'paragraph',
+        content:
+          'On peut aussi utiliser de l\'huile à la place de l\'alcool pour diluer le jus. En utilisant de l\'huile, les notes vont tenir plus longtemps même avec une moindre concentration mais on ne va pas "sprayer" mais appliquer directement sur la peau notre parfum goutte à goutte. Des formats "roller-ball" se font aussi pour les huiles de parfum.',
+      },
+      {
+        type: 'heading',
+        content: 'Niche et designer',
+      },
+      {
+        type: 'paragraph',
+        content:
+          'On oppose les marques de niche aux marques de designer. Elles sont différentes en tout point bien qu\'elles produisent du parfum par les mêmes procédés.',
+      },
+      {
+        type: 'perfume-heading',
+        name: 'MYSLF : L\'Absolu',
+        brand: 'Yves Saint Laurent — Designer',
+        icon: 'ysl',
+      },
+      {
+        type: 'paragraph',
+        content:
+          'Les parfums de designer sont créés par des maisons de luxe ou de couture (Dior, Armani, YSL…). Ils sont les plus accessibles et faits pour plaire au plus grand monde en suivant les tendances. Une grande partie du budget pour ces parfums part pour le marketing : payer une égérie, publicité à la télé, dans les rues…',
+      },
+      {
+        type: 'perfume-heading',
+        name: 'Oud for Greatness',
+        brand: 'Initio Parfums Privés — Niche',
+        icon: 'initio',
+      },
+      {
+        type: 'paragraph',
+        content:
+          'Les parfums de niche, réservés aux connaisseurs, tournent autour du parfum en lui-même, de l\'expression artistique. Le parfumeur ne se limite pas aux tendances, il veut une création originale bien travaillée. Bien moins accessibles, il faut se rendre dans des boutiques spécialisées pour les trouver et, le plus souvent, y mettre un certain prix (certaines marques de niche restent toutefois accessibles).',
+      },
+      {
+        type: 'paragraph',
+        content:
+          'Une nuance importante à connaître se fait au niveau des Collections privées. Il s\'agit des créations voulues "niche" des maisons de designer. On ne trouve pas ces parfums partout, pas même en publicité et dans le cas des Collections privées le prix est toujours plus élevé que leurs collections "mainstream" (grand public).',
+      },
+      {
+        type: 'heading',
+        content: 'Les performances',
+      },
+      {
+        type: 'paragraph',
+        content:
+          'Les performances d\'un parfum se situent au niveau de sa tenue, de son sillage et de sa projection.',
+      },
+      {
+        type: 'paragraph',
+        content:
+          'La tenue (la durée) : c\'est le temps qui s\'écoule entre la vaporisation et le moment où l\'odeur disparaît complètement. Elle est plus ou moins longue selon la concentration du parfum et la qualité des notes de fond.',
+      },
+      {
+        type: 'paragraph',
+        content:
+          'Le sillage (la trace) : la trace que tu laisses derrière toi. Vois ton sillage comme la queue d\'une comète, c\'est pas autour de toi, c\'est derrière toi. Si tu restes longtemps dans une pièce et que ton odeur en est imprégnée, c\'est que ton parfum a un très bon sillage.',
+      },
+      {
+        type: 'paragraph',
+        content:
+          'La projection (le volume) : ton parfum a une forte projection si on te sent de loin quand tu es immobile. Elle est souvent très forte durant les premières minutes puis elle diminue progressivement.',
+      },
+      {
+        type: 'paragraph',
+        content:
+          'On résume souvent les performances d\'un parfum à sa qualité. Ce raisonnement est biaisé. Une Eau de Cologne peut être très bien travaillée mais à cause de sa concentration et ses ingrédients plus volatiles, elle ne tiendra pas longtemps, laissera un très faible sillage et n\'aura qu\'une faible projection.',
+      },
+      {
+        type: 'paragraph',
+        content:
+          'L\'odorat ne peut se rapporter par l\'ouïe, le goût, le toucher ou la vue. Il est alors essentiel de maîtriser un vocabulaire si on veut décrire tant bien que mal ce qui parvient à notre nez.',
+      },
+    ],
+  },
+  {
     id: 2,
     slug: 'myslf-le-monolithe-de-ysl',
     category: 'Analyse',
@@ -355,150 +533,6 @@ export const articles = [
         type: 'paragraph',
         content:
           'Et même si ce n\'est pas ma note préférée, il faut reconnaître une chose : peu d\'ingrédients en parfumerie ont une histoire aussi riche que le oud.',
-      },
-    ],
-  },
-  {
-    id: 3,
-    slug: 'kit-vocabulaire-parfumerie',
-    category: 'Guide',
-    title: 'Kit de vocabulaire : les essentiels de la parfumerie',
-    subtitle: 'Notes, accords, concentrations, niche, performances — tout ce qu\'il faut savoir pour parler parfum',
-    excerpt:
-      'Le vocabulaire de la parfumerie peut sembler complexe au premier abord, mais il suffit de quelques clés pour tout comprendre. Notes, accords, pyramide olfactive, concentrations, niche et designer : je vous équipe d\'un kit complet pour parler parfum.',
-    date: '19 Mars 2026',
-    author: 'Hector',
-    readTime: '5',
-    body: [
-      {
-        type: 'paragraph',
-        content:
-          'En parfumerie, on utilise un vocabulaire très pointu qui peut paraître complexe quand on ne le maîtrise pas encore. En vérité, il n\'est pas compliqué à comprendre. Si il y a des termes que vous entendez et que vous n\'êtes pas toujours sûrs de comprendre, cet article est fait pour vous ! Aujourd\'hui, je vous équipe d\'un kit de vocabulaire sur la parfumerie.',
-      },
-      {
-        type: 'heading',
-        content: 'Les notes et les accords',
-      },
-      {
-        type: 'paragraph',
-        content:
-          'Pour décrire l\'odeur d\'un parfum il est fort probable que vous ayez déjà entendu l\'analogie musicale des notes et des accords. Ces termes repris du champ lexical de la musique ne s\'éloignent pas tant de leur définition d\'origine.',
-      },
-      {
-        type: 'paragraph',
-        content:
-          'Une note représente un ingrédient individuel ; il peut être naturel (essence de rose) ou synthétique (ambrofix). Le rôle d\'une note est d\'apporter une facette précise au parfum. On les classe aussi selon leur volatilité dans la pyramide olfactive.',
-      },
-      {
-        type: 'paragraph',
-        content:
-          'La pyramide olfactive découpe le parfum en trois étages. Le premier : les notes de tête. Il s\'agit des plus éphémères, on y trouve le plus souvent des agrumes ou des notes aromatiques fraîches comme la menthe. Si on les sent si peu c\'est car elles sont composées de très petites et légères molécules qui vont s\'évaporer plus rapidement au contact de la chaleur corporelle. On descend maintenant d\'un étage jusqu\'aux notes de cœur. C\'est le caractère du parfum, son ADN. Il s\'agit le plus souvent de fruits et de fleurs, on les remarque pendant quelques heures. Arrivés en bas de la pyramide on tombe finalement sur les notes de fond. Celles qu\'on va sentir pendant des heures, voire des jours selon le parfum. À l\'inverse des notes de tête, celles-ci sont bien plus tenaces et s\'accrochent mieux à la peau et aux vêtements (souvent des bois, des résines ou des muscs).',
-      },
-      {
-        type: 'paragraph',
-        content:
-          'Sortons de la pyramide et regardons maintenant les notes en détail. Avec l\'exemple d\'une note de cuir, vous convenez que ça ne correspond pas tout à fait à la définition que je vous faisais précédemment : le cuir n\'est pas un ingrédient individuel. On parle plutôt d\'un accord de cuir. Pour sentir du cuir dans un parfum on va "fabriquer la note" en utilisant différents ingrédients. Si notre mélange a fonctionné, on ne sentira pas les notes individuellement mais bien une odeur de cuir. Un accord peut être simple (deux notes) ou complexe (une dizaine).',
-      },
-      {
-        type: 'paragraph',
-        content:
-          'Dans le langage courant on parle souvent des accords comme étant des notes (note de cuir) pour simplifier en décrivant surtout la facette que l\'on perçoit.',
-      },
-      {
-        type: 'heading',
-        content: 'Concentration',
-      },
-      {
-        type: 'paragraph',
-        content:
-          'Pour comprendre un parfum il est essentiel de comprendre sa formule, sa concentration. Un parfum est composé d\'un certain pourcentage d\'alcool et d\'un concentré d\'ingrédients (huiles essentielles, absolus…) qui ressemble à un sirop épais. Au stade de concentré, le jus est trop puissant et parfois irritant pour pouvoir être appliqué directement sur la peau. Alors on le dilue dans de l\'alcool, comme il s\'évapore très vite, il est parfait pour propulser les molécules odorantes dans l\'air.',
-      },
-      {
-        type: 'paragraph',
-        content: 'Le parfumeur peut choisir un dosage plus ou moins fort en concentré odorant.',
-      },
-      {
-        type: 'paragraph',
-        content:
-          'L\'Eau de Cologne (2% à 5%) est la plus légère concentration. Elle est très majoritairement faite uniquement de notes de tête.',
-      },
-      {
-        type: 'paragraph',
-        content:
-          'L\'Eau de Toilette (5% à 15%) met le plus souvent l\'accent sur les notes de tête et de cœur, idéale pour un usage quotidien.',
-      },
-      {
-        type: 'paragraph',
-        content:
-          'L\'Eau de Parfum (15% à 20%) est le standard actuel de la parfumerie, un bon compromis entre les différentes concentrations.',
-      },
-      {
-        type: 'paragraph',
-        content:
-          'L\'Extrait de Parfum (20% à 40%) est une concentration extrêmement riche bien plus axée sur les matières premières, très tenace et très cher.',
-      },
-      {
-        type: 'paragraph',
-        content:
-          'On peut aussi utiliser de l\'huile à la place de l\'alcool pour diluer le jus. En utilisant de l\'huile, les notes vont tenir plus longtemps même avec une moindre concentration mais on ne va pas "sprayer" mais appliquer directement sur la peau notre parfum goutte à goutte. Des formats "roller-ball" se font aussi pour les huiles de parfum.',
-      },
-      {
-        type: 'heading',
-        content: 'Niche et designer',
-      },
-      {
-        type: 'paragraph',
-        content:
-          'On oppose les marques de niche aux marques de designer. Elles sont différentes en tout point bien qu\'elles produisent du parfum par les mêmes procédés.',
-      },
-      {
-        type: 'paragraph',
-        content:
-          'Les parfums de designer sont créés par des maisons de luxe ou de couture (Dior, Armani, YSL…). Ils sont les plus accessibles et faits pour plaire au plus grand monde en suivant les tendances. Une grande partie du budget pour ces parfums part pour le marketing : payer une égérie, publicité à la télé, dans les rues…',
-      },
-      {
-        type: 'paragraph',
-        content:
-          'Les parfums de niche, réservés aux connaisseurs, tournent autour du parfum en lui-même, de l\'expression artistique. Le parfumeur ne se limite pas aux tendances, il veut une création originale bien travaillée. Bien moins accessibles, il faut se rendre dans des boutiques spécialisées pour les trouver et, le plus souvent, y mettre un certain prix (certaines marques de niche restent toutefois accessibles).',
-      },
-      {
-        type: 'paragraph',
-        content:
-          'Une nuance importante à connaître se fait au niveau des Collections privées. Il s\'agit des créations voulues "niche" des maisons de designer. On ne trouve pas ces parfums partout, pas même en publicité et dans le cas des Collections privées le prix est toujours plus élevé que leurs collections "mainstream" (grand public).',
-      },
-      {
-        type: 'heading',
-        content: 'Les performances',
-      },
-      {
-        type: 'paragraph',
-        content:
-          'Les performances d\'un parfum se situent au niveau de sa tenue, de son sillage et de sa projection.',
-      },
-      {
-        type: 'paragraph',
-        content:
-          'La tenue (la durée) : c\'est le temps qui s\'écoule entre la vaporisation et le moment où l\'odeur disparaît complètement. Elle est plus ou moins longue selon la concentration du parfum et la qualité des notes de fond.',
-      },
-      {
-        type: 'paragraph',
-        content:
-          'Le sillage (la trace) : la trace que tu laisses derrière toi. Vois ton sillage comme la queue d\'une comète, c\'est pas autour de toi, c\'est derrière toi. Si tu restes longtemps dans une pièce et que ton odeur en est imprégnée, c\'est que ton parfum a un très bon sillage.',
-      },
-      {
-        type: 'paragraph',
-        content:
-          'La projection (le volume) : ton parfum a une forte projection si on te sent de loin quand tu es immobile. Elle est souvent très forte durant les premières minutes puis elle diminue progressivement.',
-      },
-      {
-        type: 'paragraph',
-        content:
-          'On résume souvent les performances d\'un parfum à sa qualité. Ce raisonnement est biaisé. Une Eau de Cologne peut être très bien travaillée mais à cause de sa concentration et ses ingrédients plus volatiles, elle ne tiendra pas longtemps, laissera un très faible sillage et n\'aura qu\'une faible projection.',
-      },
-      {
-        type: 'paragraph',
-        content:
-          'L\'odorat ne peut se rapporter par l\'ouïe, le goût, le toucher ou la vue. Il est alors essentiel de maîtriser un vocabulaire si on veut décrire tant bien que mal ce qui parvient à notre nez.',
       },
     ],
   },
