@@ -19,6 +19,7 @@ export const articles = [
       {
         type: 'heading',
         content: 'Les notes et les accords',
+        icon: 'pyramid',
       },
       {
         type: 'paragraph',
@@ -34,12 +35,6 @@ export const articles = [
         type: 'paragraph',
         content:
           'La pyramide olfactive découpe le parfum en trois étages. Le premier : les notes de tête. Il s\'agit des plus éphémères, on y trouve le plus souvent des agrumes ou des notes aromatiques fraîches comme la menthe. Si on les sent si peu c\'est car elles sont composées de très petites et légères molécules qui vont s\'évaporer plus rapidement au contact de la chaleur corporelle. On descend maintenant d\'un étage jusqu\'aux notes de cœur. C\'est le caractère du parfum, son ADN. Il s\'agit le plus souvent de fruits et de fleurs, on les remarque pendant quelques heures. Arrivés en bas de la pyramide on tombe finalement sur les notes de fond. Celles qu\'on va sentir pendant des heures, voire des jours selon le parfum. À l\'inverse des notes de tête, celles-ci sont bien plus tenaces et s\'accrochent mieux à la peau et aux vêtements (souvent des bois, des résines ou des muscs).',
-      },
-      {
-        type: 'perfume-heading',
-        name: 'Oud Yuzu',
-        brand: 'Guerlain',
-        icon: 'pyramid',
       },
       {
         type: 'paragraph',
@@ -59,6 +54,7 @@ export const articles = [
       {
         type: 'heading',
         content: 'Concentration',
+        icon: 'drop',
       },
       {
         type: 'paragraph',
@@ -85,12 +81,6 @@ export const articles = [
           'L\'Eau de Parfum (15% à 20%) est le standard actuel de la parfumerie, un bon compromis entre les différentes concentrations.',
       },
       {
-        type: 'perfume-heading',
-        name: 'MYSLF : L\'Eau de Parfum',
-        brand: 'Yves Saint Laurent',
-        icon: 'drop',
-      },
-      {
         type: 'paragraph',
         content:
           'MYSLF EdP est un bon représentant du format Eau de Parfum : une concentration entre 15 et 20 % qui offre un équilibre confortable entre fraîcheur initiale et tenue. Ni trop évanescent comme une Eau de Cologne, ni aussi puissant qu\'un Extrait.',
@@ -108,6 +98,7 @@ export const articles = [
       {
         type: 'heading',
         content: 'Niche et designer',
+        icon: 'gem',
       },
       {
         type: 'paragraph',
@@ -115,21 +106,9 @@ export const articles = [
           'On oppose les marques de niche aux marques de designer. Elles sont différentes en tout point bien qu\'elles produisent du parfum par les mêmes procédés.',
       },
       {
-        type: 'perfume-heading',
-        name: 'MYSLF : L\'Absolu',
-        brand: 'Yves Saint Laurent - Designer',
-        icon: 'drop',
-      },
-      {
         type: 'paragraph',
         content:
           'Les parfums de designer sont créés par des maisons de luxe ou de couture (Dior, Armani, YSL…). Ils sont les plus accessibles et faits pour plaire au plus grand monde en suivant les tendances. Une grande partie du budget pour ces parfums part pour le marketing : payer une égérie, publicité à la télé, dans les rues…',
-      },
-      {
-        type: 'perfume-heading',
-        name: 'Oud for Greatness',
-        brand: 'Initio Parfums Privés - Niche',
-        icon: 'gem',
       },
       {
         type: 'paragraph',

@@ -24,8 +24,15 @@ function BodyBlock({ block, index }) {
           {block.content}
         </p>
       )
-    case 'heading':
-      return <h2 className="article-body__heading">{block.content}</h2>
+    case 'heading': {
+      const HIcon = block.icon ? perfumeIcons[block.icon] : null
+      return (
+        <h2 className="article-body__heading">
+          {HIcon && <HIcon className="article-body__heading-icon" />}
+          {block.content}
+        </h2>
+      )
+    }
     case 'perfume-heading': {
       const Icon = perfumeIcons[block.icon]
       return (
