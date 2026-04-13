@@ -1,7 +1,7 @@
 import { useParams, useNavigate } from 'react-router-dom'
 import { useEffect } from 'react'
 import { articles } from '../data/articles'
-import { IconInitio, IconHorace, IconGuerlain, IconYSL, IconPyramid, IconDrop, IconGem } from './PerfumeIcon'
+import { IconInitio, IconHorace, IconGuerlain, IconYSL, IconMFK, IconPyramid, IconDrop, IconGem } from './PerfumeIcon'
 import Seo from './Seo'
 
 const perfumeIcons = {
@@ -9,6 +9,7 @@ const perfumeIcons = {
   horace: IconHorace,
   guerlain: IconGuerlain,
   ysl: IconYSL,
+  mfk: IconMFK,
   pyramid: IconPyramid,
   drop: IconDrop,
   gem: IconGem,

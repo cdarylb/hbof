@@ -1,5 +1,72 @@
 export const articles = [
   {
+    id: 4,
+    slug: 'maison-francis-kurkdjian',
+    category: 'Découverte',
+    title: 'Maison Francis Kurkdjian : L\'art de la haute parfumerie à la française',
+    subtitle: 'De Le Mâle à Baccarat Rouge 540, le parcours d\'un parfumeur prodige devenu maître de la haute parfumerie',
+    excerpt:
+      'Depuis sa fondation en 2009, Maison Francis Kurkdjian s\'impose comme une évidence dans la parfumerie de niche. Entre l\'audace d\'un créateur prodige et l\'exigence de la haute parfumerie, MFK a su transformer le parfum en un véritable vestiaire olfactif, redéfinissant les codes de l\'élégance moderne.',
+    date: '13 Avril 2026',
+    author: 'Hector',
+    readTime: '5',
+    body: [
+      {
+        type: 'paragraph',
+        content:
+          'Aujourd\'hui, on voit de plus en plus de maisons de niche naître, des bonnes comme des moins bonnes. Mais depuis sa fondation en 2009, Maison Francis Kurkdjian s\'impose comme une évidence. Entre l\'audace d\'un créateur prodige et l\'exigence de la haute parfumerie, MFK a su transformer le parfum en un véritable vestiaire olfactif, redéfinissant les codes de l\'élégance moderne.',
+      },
+      {
+        type: 'paragraph',
+        content:
+          'Si la maison éponyme de Francis Kurkdjian ne date que de 2009, sa première création remonte à bien plus loin et risque de vous surprendre. En effet pour débuter sa carrière en beauté, il signe sa première création "Le Mâle" pour Jean-Paul Gaultier en 1995 alors qu\'il sortait tout juste de l\'ISIPCA (grande école de parfumerie). Vous connaissez très probablement ce parfum qui à l\'époque bousculait les codes et aujourd\'hui est un pur classique, produit par un novice de 25 ans, en seulement 8 mois. Réussir un best-seller mondial dès son premier essai est un exploit rarissime dans l\'industrie. Cela a prouvé que Francis Kurkdjian n\'était pas juste un débutant, mais un prodige. Il est même à l\'origine d\'un parfum que j\'apprécie beaucoup personnellement : "For Him" de Narciso Rodriguez, sorti en 2007.',
+      },
+      {
+        type: 'paragraph',
+        content:
+          'Maison Francis Kurkdjian et son fondateur n\'ont aujourd\'hui plus rien à prouver. Et ça je le sais car j\'ai pu tester de nombreuses références à travers notamment le mini vestiaire olfactif pour homme qu\'ils proposent à 50€ pour 8 échantillons. L\'excellence a un prix, mais ça arrache… Ce produit reflète bien la vision de Kurkdjian à propos du parfum : un vestiaire. Il considère qu\'on porte un parfum comme un vêtement, selon l\'envie, la météo, l\'occasion… Je partage cette vision et je pense que vous êtes nombreux à en faire de même. Pour présenter MFK avec des exemples, je vous ai sélectionné quelques parfums qui m\'ont marqués dans cette découverte olfactive.',
+      },
+      {
+        type: 'perfume-heading',
+        name: 'Baccarat Rouge 540',
+        brand: 'Maison Francis Kurkdjian',
+        icon: 'mfk',
+      },
+      {
+        type: 'paragraph',
+        content:
+          'Le best-seller de la maison. Baccarat Rouge 540 a été lancé en 2015 à l\'occasion des 250 ans de Baccarat et qui de mieux que Francis Kurkdjian pour traduire un héritage aussi gros en toute originalité ? Quand il a eu à produire ce parfum, il a cherché à ressembler à Baccarat en imitant par l\'odeur la composition physique de leur cristal. Mais par dessus tout il a cherché à rendre cet anniversaire inoubliable en reversant une habitude qu\'on a en parfumerie : une note opulente est souvent sombre. Avec la volonté de faire un parfum opulent, on ne peut pas proposer une odeur sombre à une maison de cristal, c\'est pourquoi le parfum porte une belle odeur sucrée très chic mêlée à quelques notes boisées. Il est unisexe et je le trouve facile à porter au quotidien, opulent mais lumineux, il faut le voir pour y croire.',
+      },
+      {
+        type: 'perfume-heading',
+        name: '724',
+        brand: 'Maison Francis Kurkdjian',
+        icon: 'mfk',
+      },
+      {
+        type: 'paragraph',
+        content:
+          'Quel bonheur ! 724 est sûrement mon préféré du vestiaire. On y retrouve des aldéhydes et surtout la bergamote de Calabre en note de tête que j\'aime tant dans MYSLF EdP. Avec ça, un accord floral sur fond de musc blanc et de bois de santal. C\'est magnifiquement propre je pourrais le sentir tous les jours que je m\'en lasserais pas. Il est pensé comme une bulle de sérénité dans le rythme de la ville 7j/7 et 24h/24 (d\'où le nom 724). C\'est vraiment un gros coup de coeur je vous recommande vivement d\'en faire l\'expérience !',
+      },
+      {
+        type: 'perfume-heading',
+        name: 'Kurky',
+        brand: 'Maison Francis Kurkdjian',
+        icon: 'mfk',
+      },
+      {
+        type: 'paragraph',
+        content:
+          'Marrant comme nom pas vrai ? Kurky, c\'est un surnom affectueux qu\'on donnait à Francis Kurkdjian dans son enfance. Même ça, il en fait un parfum ! C\'est la création la plus récente de la maison, parue en 2025 vous allez voir que sa place de petit dernier lui va bien. Avec Kurky, l\'intention est presque un retour en enfance, c\'est une invitation à voir la vie en couleur. Le parfum se décrit comme "le parfum des grands qui osent rêver comme les moins grands". Malgré des notes très fruitées qui rappellent des bonbons en gelée, le parfum est bien pensé pour les adultes en reprenant la douceur d\'une enfance insouciante. C\'est assez intéressant comme création car même quand on bouscule les codes de la parfumerie masculine, on pense toujours à un parfum porté par un adulte donc qu\'un adulte pourrait aimer et comprendre; je n\'ai jamais vu de maison attaquer cet angle de l\'enfance.',
+      },
+      {
+        type: 'paragraph',
+        content:
+          'Comme exemples je ne vous ai pris que des parfums que j\'appréciais mais il y en a bien eu quelques uns qui ne m\'ont pas plu (comme Gentle Fluidity Silver avec sa note de coriandre). Si le mini vestiaire olfactif pour homme est composé de 8 fragrances, il faut le voir comme un dressing de 8 tenues qui comprend différents styles : ça ne pourra jamais plaire à toute le monde. Vous pourrez prochainement retrouver des vidéos qui rentrent plus en profondeur sur les différents parfums que j\'ai testé de MFK sur mes comptes Instagram et TikTok !',
+      },
+    ],
+  },
+  {
     id: 3,
     slug: 'kit-vocabulaire-parfumerie',
     category: 'Guide',

@@ -129,6 +129,31 @@ export function IconYSL({ className }) {
   )
 }
 
+export function IconMFK({ className }) {
+  // Élégant, épuré, cristallin - style Maison Francis Kurkdjian
+  return (
+    <svg
+      className={className}
+      viewBox="0 0 52 90"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="1.5"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
+      {/* Bouchon rond, discret */}
+      <ellipse cx="26" cy="8" rx="10" ry="7" />
+      {/* Col fin */}
+      <rect x="21" y="15" width="10" height="7" />
+      {/* Corps légèrement évasé vers le bas, épaules courbes */}
+      <path d="M21 22 C18 26 14 32 14 42 L14 76 Q14 85 26 85 Q38 85 38 76 L38 42 C38 32 34 26 31 22 Z" />
+      {/* Facette centrale évoquant le cristal */}
+      <line x1="14" y1="55" x2="38" y2="55" />
+      <line x1="16" y1="68" x2="36" y2="68" />
+    </svg>
+  )
+}
+
 export function IconGuerlain({ className }) {
   // Classique, épaules courbes, proportions raffinées - style Guerlain
   return (
