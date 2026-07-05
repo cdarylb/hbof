@@ -27,12 +27,6 @@ const S = {
     fontSize: 14, fontWeight: 400, color: 'var(--color-gray-500)',
     textDecoration: 'none', transition: 'color 0.15s',
   },
-  cta: {
-    fontSize: 13, fontWeight: 600, padding: '8px 18px',
-    borderRadius: 999, border: '1px solid var(--color-gray-700)',
-    color: 'var(--color-gray-300)', textDecoration: 'none',
-    transition: 'all 0.15s', letterSpacing: '-0.01em',
-  },
 }
 
 export default function Nav() {
@@ -63,14 +57,6 @@ export default function Nav() {
             </li>
           ))}
         </ul>
-
-        <a
-          href="mailto:beaufrerehector@gmail.com" style={S.cta}
-          onMouseEnter={e => { e.currentTarget.style.borderColor = 'var(--color-brand-500)'; e.currentTarget.style.color = 'var(--color-brand-400)' }}
-          onMouseLeave={e => { e.currentTarget.style.borderColor = 'var(--color-gray-700)'; e.currentTarget.style.color = 'var(--color-gray-300)' }}
-        >
-          Me contacter
-        </a>
       </div>
     </motion.nav>
   )
