@@ -41,7 +41,7 @@ export default function Contact() {
             fontSize: 11, fontWeight: 600, letterSpacing: '0.14em',
             textTransform: 'uppercase', color: 'var(--color-gray-600)', marginBottom: 64,
           }}>
-            04 — Contact
+            04 - Contact
           </p>
         </Reveal>
 
@@ -60,7 +60,7 @@ export default function Contact() {
             fontSize: 16, lineHeight: 1.7, color: 'var(--color-gray-500)',
             maxWidth: 480, letterSpacing: '-0.01em', marginBottom: 56,
           }}>
-            Projet, stage, ou juste un échange sur la com et le créatif — je suis toujours ouvert à la discussion.
+            Projet, stage, ou juste un échange sur la com et le créatif - je suis toujours ouvert à la discussion.
           </p>
         </Reveal>
 

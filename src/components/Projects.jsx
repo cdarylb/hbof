@@ -35,7 +35,7 @@ const experiences = [
     tag: 'Formation en cours',
     year: '2025–2026',
     title: 'BTS Communication',
-    company: 'CNED — à distance',
+    company: 'CNED - à distance',
     desc: 'Cursus complet en autonomie : stratégie de communication, création de contenus, identité de marque. Bac général obtenu mention Assez Bien (2024).',
   },
 ]
@@ -50,7 +50,7 @@ export default function Projects() {
             fontSize: 11, fontWeight: 600, letterSpacing: '0.14em',
             textTransform: 'uppercase', color: 'var(--color-gray-600)', marginBottom: 64,
           }}>
-            03 — Expériences
+            03 - Expériences
           </p>
         </Reveal>
 
@@ -61,7 +61,7 @@ export default function Projects() {
               letterSpacing: '-0.03em', lineHeight: 1.1,
               color: 'var(--color-gray-25)',
             }}>
-              Mon parcours —{' '}
+              Mon parcours -{' '}
               <em style={{ fontStyle: 'italic', fontWeight: 300, color: 'var(--color-gray-500)' }}>professionnel et scolaire.</em>
             </h2>
             <p style={{ fontSize: 13, color: 'var(--color-gray-600)', maxWidth: 280, lineHeight: 1.65, letterSpacing: '-0.01em' }}>

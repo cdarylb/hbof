@@ -15,11 +15,11 @@ function Reveal({ children, delay = 0 }) {
 
 const skills = [
   { n: '01', title: 'Communication', desc: 'Écrite et orale. Capable de porter un message clairement, adapter son discours, convaincre.' },
-  { n: '02', title: 'Sens de l\'initiative', desc: 'Je prends les devants, j\'anticipe, je propose — sans attendre qu\'on me le demande.' },
+  { n: '02', title: 'Sens de l\'initiative', desc: 'Je prends les devants, j\'anticipe, je propose - sans attendre qu\'on me le demande.' },
   { n: '03', title: 'Minutieux & rigoureux', desc: 'Chaque détail compte. Dans le travail comme dans les projets, rien n\'est laissé au hasard.' },
   { n: '04', title: 'Langues', desc: 'Français langue maternelle · Anglais B2 (lu, écrit, parlé) · Espagnol A1.' },
   { n: '05', title: 'Relation client', desc: 'Expérience terrain en conseil de vente : écoute, adaptation, satisfaction client.' },
-  { n: '06', title: 'Centres d\'intérêt', desc: 'Parfums, cartes à collectionner, culture geek — des univers où l\'identité et la communauté comptent.' },
+  { n: '06', title: 'Centres d\'intérêt', desc: 'Parfums, cartes à collectionner, culture geek - des univers où l\'identité et la communauté comptent.' },
 ]
 
 export default function Skills() {
@@ -40,7 +40,7 @@ export default function Skills() {
             textTransform: 'uppercase', color: 'var(--color-gray-600)',
             marginBottom: 64,
           }}>
-            02 — Compétences
+            02 - Compétences
           </p>
         </Reveal>
 
@@ -50,7 +50,7 @@ export default function Skills() {
             letterSpacing: '-0.03em', lineHeight: 1.1,
             color: 'var(--color-gray-25)', marginBottom: 80,
           }}>
-            Ce que j'apporte —{' '}
+            Ce que j'apporte -{' '}
             <em style={{ fontStyle: 'italic', fontWeight: 300, color: 'var(--color-gray-600)' }}>
               et ce qui me définit.
             </em>
