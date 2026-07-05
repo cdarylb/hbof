@@ -17,7 +17,7 @@ const experiences = [
   {
     n: '01',
     tag: 'CDD · 4 mois',
-    year: 'Avr–Juil 2025',
+    year: 'Avr-Juil 2025',
     title: 'Conseiller de vente',
     company: 'PokéMagique, Puteaux (92)',
     desc: 'Adaptation aux différentes demandes clients, tri et organisation des achats/revente de cartes à collectionner. Prise d\'autonomie et montée en compétence en vente.',
@@ -33,7 +33,7 @@ const experiences = [
   {
     n: '03',
     tag: 'Formation en cours',
-    year: '2025–2026',
+    year: '2025-2026',
     title: 'BTS Communication',
     company: 'CNED - à distance',
     desc: 'Cursus complet en autonomie : stratégie de communication, création de contenus, identité de marque. Bac général obtenu mention Assez Bien (2024).',
