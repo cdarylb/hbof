@@ -5,7 +5,13 @@ const up = { hidden: { opacity: 0, y: 20 }, show: { opacity: 1, y: 0, transition
 
 export default function Hero() {
   return (
-    <section style={{ minHeight: '100svh', display: 'flex', flexDirection: 'column', justifyContent: 'center', padding: '96px 32px 64px' }}>
+    <section style={{ position: 'relative', minHeight: '100svh', display: 'flex', flexDirection: 'column', justifyContent: 'center', padding: '96px 32px 64px', overflow: 'hidden' }}>
+      <div aria-hidden style={{
+        position: 'absolute', top: '10%', left: '50%', width: 560, height: 560,
+        transform: 'translateX(-50%)', borderRadius: '50%', pointerEvents: 'none',
+        background: 'radial-gradient(closest-side, color-mix(in srgb, var(--color-brand-500) 20%, transparent), transparent)',
+        filter: 'blur(40px)',
+      }} />
       <div style={{ maxWidth: 1152, margin: '0 auto', width: '100%' }}>
         <motion.div variants={stagger} initial="hidden" animate="show">
 
@@ -82,10 +88,11 @@ export default function Hero() {
                 fontSize: 14, fontWeight: 600, letterSpacing: '-0.02em',
                 padding: '12px 24px', borderRadius: 999,
                 background: 'var(--color-gray-25)', color: 'var(--color-gray-950)',
-                textDecoration: 'none', transition: 'opacity 0.15s',
+                textDecoration: 'none', transition: 'opacity 0.15s, box-shadow 0.25s',
+                boxShadow: '0 0 0 0 transparent',
               }}
-                onMouseEnter={e => e.currentTarget.style.opacity = '0.85'}
-                onMouseLeave={e => e.currentTarget.style.opacity = '1'}
+                onMouseEnter={e => { e.currentTarget.style.opacity = '0.85'; e.currentTarget.style.boxShadow = '0 8px 24px -8px color-mix(in srgb, var(--color-brand-500) 60%, transparent)' }}
+                onMouseLeave={e => { e.currentTarget.style.opacity = '1'; e.currentTarget.style.boxShadow = '0 0 0 0 transparent' }}
               >
                 Mon parcours
                 <svg width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>

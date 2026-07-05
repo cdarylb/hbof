@@ -61,7 +61,7 @@ export default function Skills() {
           {skills.map((s, i) => (
             <Reveal key={s.n} delay={0.04 * i}>
               <motion.div
-                whileHover={{ background: 'color-mix(in srgb, var(--color-gray-800) 50%, var(--color-gray-950))' }}
+                whileHover={{ background: 'color-mix(in srgb, var(--color-gray-800) 50%, var(--color-gray-950))', y: -2 }}
                 transition={{ duration: 0.15 }}
                 style={{ padding: 32, background: 'var(--color-gray-950)' }}
               >

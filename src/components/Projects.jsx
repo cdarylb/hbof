@@ -74,7 +74,7 @@ export default function Projects() {
           {experiences.map((e, i) => (
             <Reveal key={e.n} delay={0.05 * i}>
               <motion.div
-                whileHover={{ paddingLeft: 40 }}
+                whileHover={{ paddingLeft: 40, background: 'color-mix(in srgb, var(--color-gray-900) 60%, transparent)' }}
                 transition={{ duration: 0.2, ease: [0.25, 0.46, 0.45, 0.94] }}
                 style={{
                   display: 'grid',

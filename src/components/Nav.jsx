@@ -52,9 +52,9 @@ export default function Nav() {
       <div style={S.inner}>
         <a href="#" style={S.logo}>Hector Beaufrère</a>
 
-        <ul style={{ display: 'flex', gap: 32, listStyle: 'none', margin: 0, padding: 0 }}>
+        <ul className="hidden sm:flex" style={{ gap: 32, listStyle: 'none', margin: 0, padding: 0 }}>
           {links.map((l) => (
-            <li key={l.href} style={{ display: 'none' }} className="sm-show">
+            <li key={l.href}>
               <a
                 href={l.href} style={S.link}
                 onMouseEnter={e => e.target.style.color = 'var(--color-gray-25)'}

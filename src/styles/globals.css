@@ -39,6 +39,22 @@ body {
     text-rendering: optimizeLegibility;
     background-color: var(--color-gray-950);
     color: var(--color-gray-25);
+    overflow-x: hidden;
+}
+
+body {
+    position: relative;
+}
+
+body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    pointer-events: none;
+    background:
+        radial-gradient(60% 45% at 50% 0%, color-mix(in srgb, var(--color-brand-500) 14%, transparent) 0%, transparent 100%),
+        radial-gradient(40% 30% at 90% 20%, color-mix(in srgb, var(--color-brand-700) 10%, transparent) 0%, transparent 100%);
 }
 
 ::selection {

@@ -17,7 +17,13 @@ function PhotoCard() {
   const [hovered, setHovered] = useState(false)
   return (
     <div
-      style={{ position: 'relative', aspectRatio: '3/4', borderRadius: 16, overflow: 'hidden', cursor: 'pointer' }}
+      style={{
+        position: 'relative', aspectRatio: '3/4', borderRadius: 16, overflow: 'hidden', cursor: 'pointer',
+        boxShadow: hovered
+          ? '0 0 0 1px color-mix(in srgb, var(--color-brand-500) 40%, transparent), 0 20px 40px -16px color-mix(in srgb, var(--color-brand-500) 35%, transparent)'
+          : '0 0 0 1px var(--color-gray-800)',
+        transition: 'box-shadow 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)',
+      }}
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
     >
